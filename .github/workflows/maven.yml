@@ -64,7 +64,7 @@ jobs:
           host: 0.tcp.jp.ngrok.io
           username: ubuntu
           password: ubuntu
-          port: 25631
+          port: 12391
           script: |
             docker stop park || true
             docker rm park || true
